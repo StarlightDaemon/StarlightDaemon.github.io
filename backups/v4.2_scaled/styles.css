@@ -136,10 +136,8 @@ img {
 }
 
 .logo img {
-    width: 130px;
-    height: 130px;
-    border-radius: 50%;
-    /* Subtle rounded look */
+    width: 110px;
+    height: 110px;
     display: block;
     filter: brightness(1.1) contrast(1.1);
 }
@@ -1169,10 +1167,10 @@ section:nth-child(4) {
     color: var(--lcd-green);
     box-shadow: none;
     /* Removed box glow */
-    width: 180px;
-    /* Reduced from 300px to prevent overlap */
+    width: 300px;
+    /* Adjusted size */
     position: relative;
-    transform: scale(0.7);
+    transform: scale(0.8);
     /* Scale down slightly to fit */
     transform-origin: top right;
 }
